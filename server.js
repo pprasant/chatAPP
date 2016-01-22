@@ -19,6 +19,7 @@ io.on('connection', function(socket) {
     });
     
     socket.emit('message', {
+        name: 'Prashant Singh',
         text: 'Welcome to the chat app',
         timestamp: moment().valueOf()
     });
